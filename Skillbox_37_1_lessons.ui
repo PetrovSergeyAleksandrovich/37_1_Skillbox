@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>448</width>
-    <height>584</height>
+    <width>499</width>
+    <height>588</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -242,7 +242,7 @@ color:rgb(218, 218, 218)</string>
        <string/>
       </property>
       <property name="text">
-       <string>+00000000</string>
+       <string/>
       </property>
       <property name="alignment">
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -256,7 +256,7 @@ color:rgb(218, 218, 218)</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>448</width>
+     <width>499</width>
      <height>21</height>
     </rect>
    </property>
@@ -264,5 +264,195 @@ color:rgb(218, 218, 218)</string>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>106</x>
+     <y>150</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>80</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>259</x>
+     <y>155</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>117</x>
+     <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>403</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>23</x>
+     <y>396</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>54</x>
+     <y>248</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>31</x>
+     <y>436</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>281</x>
+     <y>252</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>442</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>368</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>471</x>
+     <y>392</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add7()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>132</x>
+     <y>323</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>417</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>202</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>420</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add9()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>389</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>476</x>
+     <y>426</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>makeCall()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>387</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>398</x>
+     <y>453</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add0()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>292</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>add1()</slot>
+  <slot>add2()</slot>
+  <slot>add3()</slot>
+  <slot>add4()</slot>
+  <slot>add5()</slot>
+  <slot>add6()</slot>
+  <slot>add7()</slot>
+  <slot>add8()</slot>
+  <slot>add9()</slot>
+  <slot>add0()</slot>
+  <slot>makeCall()</slot>
+ </slots>
 </ui>
