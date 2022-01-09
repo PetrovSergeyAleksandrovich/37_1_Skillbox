@@ -10,7 +10,7 @@ set(CMAKE_PREFIX_PATH "D:\\Qt\\5.15.2\\mingw81_64\\lib\\cmake")
 
 find_package(Qt5 COMPONENTS Core Gui Widgets REQUIRED)
 
-add_executable(37_1_Skillbox main.cpp)
+add_executable(37_1_Skillbox main.cpp Skillbox_37_1_lessons.ui)
 
 target_link_libraries(37_1_Skillbox Qt5::Core Qt5::Gui Qt5::Widgets)
 
